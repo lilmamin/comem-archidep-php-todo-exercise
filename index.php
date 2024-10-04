@@ -78,7 +78,7 @@ if (isset($_POST['action'])) {
  * Select all tasks from the database.
  */
 
-$selectQuery = 'SELECT * FROM todo'; // IMPLEMENT ME 
+$selectQuery = 'SELECT * FROM todo'; // DONE
 $items = $db->query($selectQuery);
 ?>
 <html>
